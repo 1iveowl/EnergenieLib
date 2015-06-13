@@ -19,23 +19,23 @@ namespace ConsoleTest
 
         private static async void GetStateAsync()
         {
-            string password = "password";
-            string hostIp = "192.168.0.1"; 
-            string hostDns = "energenie.local";
-            int socketNumber = 2;
+            string key = "key12345"; //must be 8 characters
+            string hostIp = "192.168.0.1"; //Both ip adresses and...
+            string hostDns = "energenie.local"; // ... dns host names can be used
+            int socketNumber = 2; // must be 1, 2, 3 or 4 or the library will throw an exception.
 
             var energenie = new Energenie();
 
             //Get state of socket
-            var status = await energenie.GetSocketStateAsync(password, socketNumber, hostDns, port:5000, retries:3, timeout:2);
+            var status = await energenie.GetSocketStateAsync(key, socketNumber, hostDns, port:5000, retries:3, timeout:2);
             Console.WriteLine("Socket {0} is currently set to {1}", socketNumber, status);
 
             //Toggle socket
             status = !status;
-            await energenie.SetSocketStateAsync(password, socketNumber, status, hostIp);
+            await energenie.SetSocketStateAsync(key, socketNumber, status, hostIp);
 
             //Get new state of socket
-            status = await energenie.GetSocketStateAsync(password, socketNumber, hostIp);
+            status = await energenie.GetSocketStateAsync(key, socketNumber, hostIp);
             Console.WriteLine("Socket {0} is currently set to {1}", socketNumber, status);
         } 
     }

@@ -6,3 +6,6 @@ C:\Users\Jasper\Source\Workspaces\Workspace\Home Automation v2\Energenie\Energen
 C:\Users\Jasper\Source\Workspaces\Workspace\Home Automation v2\Energenie\EnergenieLibv2\ConsoleTest\obj\Debug\ConsoleTest.csprojResolveAssemblyReference.cache
 C:\Users\Jasper\Source\Workspaces\Workspace\Home Automation v2\Energenie\EnergenieLibv2\ConsoleTest\obj\Debug\ConsoleTest.exe
 C:\Users\Jasper\Source\Workspaces\Workspace\Home Automation v2\Energenie\EnergenieLibv2\ConsoleTest\obj\Debug\ConsoleTest.pdb
+C:\Users\Jasper\Source\Repos\EnergenieLib\EnergenieLibv2\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+C:\Users\Jasper\Source\Repos\EnergenieLib\EnergenieLibv2\ConsoleTest\obj\Debug\ConsoleTest.exe
+C:\Users\Jasper\Source\Repos\EnergenieLib\EnergenieLibv2\ConsoleTest\obj\Debug\ConsoleTest.pdb
