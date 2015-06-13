@@ -22,7 +22,7 @@ namespace ConsoleTest
             string key = "key12345"; //must be 8 characters
             string hostIp = "192.168.0.1"; //Both ip adresses and...
             string hostDns = "energenie.local"; // ... dns host names can be used
-            int socketNumber = 2; // must be 1, 2, 3 or 4 or the library will throw an exception.
+            int socketNumber = 2; // must be 1, 2, 3 or 4 or the library will throw an exception. 
 
             var energenie = new Energenie();
 
