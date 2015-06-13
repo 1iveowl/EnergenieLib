@@ -1,0 +1,5 @@
+C:\Users\Jasper\Source\Workspaces\Workspace\Home Automation v2\Energenie\EnergenieLibv2\EnergenieLibv2\bin\Debug\EnergenieLibv2.dll
+C:\Users\Jasper\Source\Workspaces\Workspace\Home Automation v2\Energenie\EnergenieLibv2\EnergenieLibv2\bin\Debug\EnergenieLibv2.pdb
+C:\Users\Jasper\Source\Workspaces\Workspace\Home Automation v2\Energenie\EnergenieLibv2\EnergenieLibv2\obj\Debug\EnergenieLibv2.dll
+C:\Users\Jasper\Source\Workspaces\Workspace\Home Automation v2\Energenie\EnergenieLibv2\EnergenieLibv2\obj\Debug\EnergenieLibv2.pdb
+C:\Users\Jasper\Source\Workspaces\Workspace\Home Automation v2\Energenie\EnergenieLibv2\EnergenieLibv2\obj\Debug\EnergenieLibv2.csprojResolveAssemblyReference.cache
